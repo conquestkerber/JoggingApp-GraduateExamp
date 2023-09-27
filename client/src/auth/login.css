@@ -1,0 +1,61 @@
+/* Styling for the container that holds the image and form */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for the image section on the left */
+.image {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Styling for the form section on the right */
+.inputPart {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Styling for the form title */
+.inputPart h1 {
+  margin-bottom: 20px;
+  color: gray;
+  font-size: 50px;
+}
+
+/* Styling for form labels */
+.inputPart label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styling for form input fields */
+.inputPart input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for the login button */
+.inputPart button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the login button on hover */
+.inputPart button:hover {
+  background-color: #0056b3;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 20px;
+}
